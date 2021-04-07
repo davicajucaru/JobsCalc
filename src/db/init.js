@@ -33,14 +33,16 @@ INSERT INTO profile (
     monthly_budget,
     days_per_week,
     hours_per_day,
-    vacation_per_year
+    vacation_per_year,
+    value_hour
 ) VALUES (
    "Davi",
    "https://github.com/davicajucaru.png",
    3000,
    5,
    5,
-   4
+   4,
+   75
 );`);
 
 await db.run(`INSERT INTO jobs (
