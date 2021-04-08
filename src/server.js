@@ -19,4 +19,4 @@ server.use(express.urlencoded({ extended: true }));
 server.use(routes);
 
 // porta para acessar aplicação
-server.listen(3000, () => console.log('rodando'));
+server.listen(3333, () => console.log('rodando'));
